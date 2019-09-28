@@ -8,14 +8,14 @@ Pod::Spec.new do |s|
                     A base collection of default DNSCore Data Objects for base interactions with server Core.
                    DESC
 
-  s.homepage     = "git@github.com:DoubleNode/Pod_DNSDataObjects"
+  s.homepage     = "https://github.com/DoubleNode/Pod_DNSDataObjects"
   s.license      = { :type => "PRIVATE", :file => "README.md" }
 
   s.author             = { "Darren Ehlers" => "me@darrenehlers.com" }
   s.social_media_url   = "http://twitter.com/ehlersd"
 
   s.platform        = :ios, "11.0"
-  s.source          = { :git => "https://github.com/DoubleNode/Pod_DNSDataObjects.git", :tag => "#{s.version}" }
+  s.source          = { :git => "git@github.com:DoubleNode/Pod_DNSDataObjects.git", :tag => "#{s.version}" }
   s.swift_version   = '5.1'
 
   s.source_files  = "Classes", "Classes/**/*.{h,m,swift}"
