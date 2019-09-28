@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.social_media_url    = "http://twitter.com/ehlersd"
 
   s.platform        = :ios, "11.0"
-  s.source          = { :git => "https://github.com/DoubleNode/Pod_DNSProtocols.git", :tag => "#{s.version}" }
+  s.source          = { :git => "git@github.com:DoubleNode/Pod_DNSProtocols.git", :tag => "#{s.version}" }
   s.swift_version   = '5.1'
 
   s.source_files  = "Classes", "Classes/**/*.{h,m,swift}"
